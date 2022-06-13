@@ -198,7 +198,6 @@ main {
 
 .wallpaper {
   width: 100%;
-  background-image: url('./wallpaper/1.jpg');
   background-size: cover;
   background-position: center;
   flex: 1;

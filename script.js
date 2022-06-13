@@ -1,6 +1,26 @@
 const inputs = document.querySelectorAll('.input');
 const button = document.querySelector('.login__button');
 
+window.onload = function changeBg() {
+
+  const images = [
+    'url("1.jpg")',
+    'url("2.jpg")',
+    'url("3.jpg")',
+    'url("4.jpg")',
+    'url("5.jpg")',
+    'url("6.jpg")',
+    'url("7.jpg")',
+  ];
+
+  const section = document.querySelector('section')
+  const bg = images[Math.floor(Math.random() * images.length)];
+  section.style.backgroundImage = bg;
+}
+
+const section = document.querySelector('section')
+const bg = images
+
 const handleFocus = ({ target }) => {
   const span = target.previousElementSibling;
   span.classList.add('span-active');
