@@ -19,6 +19,11 @@
   --red: #CF3C3F;
 }
 
+body {
+  height: 100%;
+    overflow: hidden
+}
+
 main {
   display: flex;
 }
@@ -43,14 +48,14 @@ main {
 }
 
 .login__logo {
-  width: 130px;
-  margin-bottom: 80px;
+  width: 150px;
 }
 
 .login__title {
   color: var(--deep-grey);
   font-size: 1.5em;
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .login__label {

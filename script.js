@@ -19,7 +19,6 @@ window.onload = function changeBg() {
 }
 
 const section = document.querySelector('section')
-const bg = images
 
 const handleFocus = ({ target }) => {
   const span = target.previousElementSibling;
