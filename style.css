@@ -174,7 +174,7 @@ main {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  margin-bottom: 60px;
+  margin-bottom: 10%;
 }
 
 .login__button svg {
@@ -196,7 +196,7 @@ main {
   text-decoration: none;
   color: var(--medium-grey);
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 3%;
   font-weight: 700;
 }
 
@@ -205,7 +205,7 @@ main {
   text-decoration: none;
   color: var(--black);
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 3%;
   font-weight: 700;
 }
 
