@@ -35,11 +35,15 @@ const handleFocusOut = ({ target }) => {
 const handleChange = () => {
   const [username, password] = inputs;
 
-  if (username.value && password.value.length >= 8) {
+  if (username.value && password.value.length >= 1) {
     button.removeAttribute('disabled');
   } else {
     button.setAttribute('disabled', '');
   }
+}
+
+function botao() {
+  window.location.href = "https://www.youtube.com/watch?v=KUrWlP9Bwt8&ab_channel=gabrielsoares";
 }
 
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
