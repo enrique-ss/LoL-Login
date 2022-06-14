@@ -21,7 +21,7 @@
 
 body {
   height: 100%;
-  overflow: hidden
+  overflow: hidden;
 }
 
 main {
@@ -36,7 +36,7 @@ main {
   width: 100%;
   max-width: 450px;
   min-height: 100vh;
-  padding: clamp(35px, 8%, 70px);
+  padding: clamp(35px, 10%, 70px);
 }
 
 .wrapper {
@@ -226,6 +226,7 @@ main {
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
+  min-width: 0px;
 }
 
 .wpp__button {
@@ -234,8 +235,16 @@ main {
   width: 50px;
   margin-left: 10px;
   margin-top: 10px;
-  display: block;
   border: var(--light-grey);
   border-radius: 5px;
   background-repeat: no-repeat;
+  min-width: 0px;
+}
+
+#inv {
+  width: 0px;
+  height: 0px;
+  outline: none;
+  background-color: transparent;
+  border: none;
 }

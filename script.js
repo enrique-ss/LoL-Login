@@ -46,3 +46,14 @@ function botao() {
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
 inputs.forEach((input) => input.addEventListener('input', handleChange));
+
+function handleEnterKeyPress() {
+  console.log('Enter key pressed')
+}
+
+window.addEventListener('keyup', event => {
+  console.log(event.code, event.key);
+
+  if (event.code === 'NumpadEnter' || event.code === 'Enter')
+    handleEnterKeyPress();
+});
